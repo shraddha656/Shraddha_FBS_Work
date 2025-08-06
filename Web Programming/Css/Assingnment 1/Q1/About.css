@@ -1,0 +1,80 @@
+/* Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Element Selectors */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    color: #006400;
+    text-align: center;
+    background-color: #ffeb3b;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #ccc;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 20px;
+}
+
+ul {
+    list-style: square;
+    margin-left: 40px;
+}
+
+/* ID Selector */
+#nameTitle {
+    font-size: 32px;
+    padding-top: 15px;
+    border-bottom: 2px solid #4caf50;
+}
+
+/* Class Selectors */
+.highlight {
+    background-color: #fff176;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.note {
+    color: crimson;
+    font-style: italic;
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 1px dashed #999;
+}
+
+/* Group Selector */
+h2, h3, .sectionTitle {
+    color: #2e7d32;
+}
+
+/* Descendant Selectors */
+.about-me p {
+    font-size: 18px;
+    background-color: #f1f8e9;
+    padding: 10px;
+    border-left: 4px solid #81c784;
+}
+
+.skills ul li {
+    background-color: #f9fbe7;
+    padding: 5px 0;
+    border-bottom: 1px solid #dce775;
+}
